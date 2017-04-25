@@ -1,6 +1,6 @@
 # npmtest-app-root-path
 
-#### test coverage for  [app-root-path (v2.0.1)](https://github.com/inxilpro/node-app-root-path)  [![npm package](https://img.shields.io/npm/v/npmtest-app-root-path.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-app-root-path) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-app-root-path.svg)](https://travis-ci.org/npmtest/node-npmtest-app-root-path)
+#### basic test coverage for  [app-root-path (v2.0.1)](https://github.com/inxilpro/node-app-root-path)  [![npm package](https://img.shields.io/npm/v/npmtest-app-root-path.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-app-root-path) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-app-root-path.svg)](https://travis-ci.org/npmtest/node-npmtest-app-root-path)
 
 #### Determine an app's root path from anywhere inside the app
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-app-root-path/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-app-root-path/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-app-root-path/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-app-root-path/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-app-root-path/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-app-root-path/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-app-root-path/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-app-root-path/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-app-root-path/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-app-root-path/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-app-root-path/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-app-root-path/build/coverage.html/index.html)
 
@@ -111,7 +111,8 @@
         "report-coverage": "npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
         "test": "nyc mocha -R spec"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
